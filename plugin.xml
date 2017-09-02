@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin id="cordova-plugin-push-notifications-status" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>PushNotificationsStatus</name>
+    <description>Check whether or not push notifications are enabled.</description>
+    <keywords>cordova,push,notifications,push notifications</keywords>
+    <js-module name="PushNotificationsStatus" src="www/PushNotificationsStatus.js">
+        <clobbers target="cordova.plugins.PushNotificationsStatus" />
+    </js-module>
+
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="PushNotificationsStatus">
+                <param name="ios-package" value="PushNotificationsStatus"/>
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/PushNotificationsStatus.h" />
+        <source-file src="src/ios/PushNotificationsStatus.m" />
+    </platform>
+</plugin>

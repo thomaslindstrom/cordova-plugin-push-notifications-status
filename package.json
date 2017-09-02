@@ -1,0 +1,29 @@
+{
+  "name": "cordova-plugin-push-notifications-status",
+  "version": "0.1.0",
+  "description": "Check whether or not push notifications are enabled.",
+  "cordova": {
+    "id": "cordova-plugin-push-notifications-status",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomaslindstrom/cordova-plugin-push-notifications-status.git"
+  },
+  "keywords": [
+    "cordova",
+    "push",
+    "notifications",
+    "push notifications",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Thomas Lindstrøm <t@hom.as>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomaslindstrom/cordova-plugin-push-notifications-status/issues"
+  },
+  "homepage": "https://github.com/thomaslindstrom/cordova-plugin-push-notifications-status#readme"
+}
